@@ -38,12 +38,12 @@
 
             } while (duma != "stocked");
 
-            //PECHAT
+            
             for (int i = 0; i < products.Count; i++)
             {
                 products[i].Pechat();
             }
-            Console.WriteLine("------------------------------");
+            
             Console.WriteLine($"Grand Total: {Product.Sum:F2}");
         }
     }
